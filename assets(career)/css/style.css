@@ -950,8 +950,7 @@ banner
   background-color: rgba(31, 39, 43, 0.199);
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
+  bottom: 7px;
   width: 100%;
 }
 
