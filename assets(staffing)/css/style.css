@@ -1146,6 +1146,21 @@ header
     background-repeat: no-repeat;
 }
 
+.slide .display-3 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .slide2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner4.jpg);
     background-size: cover;
@@ -1157,6 +1172,155 @@ header
     text-transform: uppercase;
     color: #fff;
 }
+
+/*PERMANENT STAFFING*/
+
+section.video-1 {
+    background-image: url('/assets\(staffing\)/img/ps.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #172238;
+    padding: 160px 20px;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+section.video-1 .left-content {
+    color: #fff;
+}
+
+section.video-1 .left-content span {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+section.video-1 .left-content h4 {
+    margin-top: 1px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+section.video-1 .left-content h3 em {
+    font-style: normal;
+    background: linear-gradient(90deg, rgba(129, 21, 255, 1) 0%, rgba(255, 42, 208, 1) 50%, rgb(0, 0, 0) 100%);
+
+}
+
+section.video-1 .left-content p {
+    font-size: 17px;
+    font-weight: 525;
+}
+
+section.video-1 .left-content .main-button {
+    margin-top: 15px;
+}
+
+
+/*CONTRACT STAFFING*/
+
+section.video-2 {
+    background-image: url('/assets\(staffing\)/img/cs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #172238;
+    padding: 160px 20px;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+section.video-2 .left-content {
+    color: #fff;
+}
+
+section.video-2 .left-content span {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+section.video-2 .left-content h4 {
+    margin-top: 1px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+section.video-2 .left-content h3 em {
+    font-style: normal;
+    background: linear-gradient(90deg, rgba(129, 21, 255, 1) 0%, rgba(255, 42, 208, 1) 50%, rgb(0, 0, 0) 100%);
+}
+
+section.video-2 .left-content p {
+    font-size: 17px;
+    font-weight: 525;
+}
+
+section.video-2 .left-content .main-button {
+    margin-top: 15px;
+}
+
+/*CLIENT STAFFING*/
+
+section.video-3 {
+    background-image: url('/assets\(staffing\)/img/cs2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #172238;
+    padding: 160px 20px;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+section.video-3 .left-content {
+    color: #fff;
+}
+
+section.video-1 .left-content span {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+section.video-3 .left-content h4 {
+    margin-top: 1px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+section.video-3 .left-content h3 em {
+    font-style: normal;
+    background: linear-gradient(90deg, rgba(129, 21, 255, 1) 0%, rgba(255, 42, 208, 1) 50%, rgb(0, 0, 0) 100%);
+
+}
+
+section.video-3 .left-content p {
+    font-size: 17px;
+    font-weight: 525;
+}
+
+
+section.video-3 .left-content .main-button {
+    margin-top: 15px;
+}
+
 
 /* navbar */
 .top-nav {
